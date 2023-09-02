@@ -9,7 +9,7 @@ const page = () => {
   if(!mounted)return null;
   return (
 
-    <div className='min-h-full p-4'><About data ={aboutData}/></div>
+    <div className='min-h-[90dvh] p-4'><About data ={aboutData}/></div>
   )
 }
 

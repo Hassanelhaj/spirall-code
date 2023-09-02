@@ -4,17 +4,11 @@ import React, { useState } from "react";
 import{HiHome, HiPhone} from 'react-icons/hi'
 import {  FiMenu } from "react-icons/fi";
 import {  BsPersonCircle } from "react-icons/bs";
-
 import {FaBlog} from 'react-icons/fa'
-// import { } from "react-icons/gi";
-
 import {BsInfoCircleFill} from "react-icons/bs";
 import Link from "next/link";
-
 import Image from "next/image";
 import logo from '../../public/imgs/logo.png'
-
-// IoRestaurantSharp
 
 const NavBar = () => {
 
@@ -27,9 +21,10 @@ const NavBar = () => {
   return (
     <main className="px-6 text-purple-800 bg-white">
       <nav className="  max-w-screen-xl ">
+
         {/* mobile nav */}
         <div className="container mx-auto 
-         lg:hidden flex justify-between items-center flex-wrap px-1  py-2">
+         lg:hidden flex  justify-between items-center flex-wrap px-1 ">
           <Link
             href="/"
             className=" flex justify-center items-center gap-2 cursor-pointer"
@@ -64,7 +59,7 @@ const NavBar = () => {
                   <span>Blog</span>
                 </Link>
                 <Link
-                  href="/"
+                  href="/about"
                   className=" flex justify-center items-center gap-1 link"
                 >
                   <span>
@@ -74,7 +69,7 @@ const NavBar = () => {
                 </Link>
                 {/*  */}
                 <Link
-                  href="/"
+                  href="/contact"
                   className=" flex justify-center items-center gap-1
            link"
                 >
@@ -94,7 +89,7 @@ const NavBar = () => {
 
         <div
           className=" hidden lg:flex 
-     flex-row  py-2 justify-start items-center  lg:gap-40 xl:gap-80"
+     flex-row   justify-start items-center  lg:gap-40 xl:gap-80"
         >
           <Link
             href="/"

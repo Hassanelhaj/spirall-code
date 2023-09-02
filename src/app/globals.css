@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Condensed:ital,wght@0,300;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* html{
- @apply font
-} */
+html{
+  font-family: 'Poppins', sans-serif;
+}
 body{
   @apply bg-slate-50;
   /* background-color: white; */
@@ -20,17 +22,15 @@ body{
 }
 .poster{
   /* background-image: url('../../public//background/bac1.jpg') !important; */
-  @apply bg-gradient-to-bl from-purple-600 via-blue-400 to-violet-600;
+  @apply bg-gradient-to-bl from-violet-800 via-violet-600 to-violet-800;
 
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .contactForm{
   background-image: url('../../public//background/back1.webp');
-  height: 100% !important;
+  /* height: 100% !important;/ */
 }
 .gredient{
-  @apply bg-gradient-to-br from-purple-600 via-blue-400 to-violet-600;
+  @apply bg-gradient-to-br from-violet-800 via-violet-600 to-violet-800;
   height: 100% !important;
 
 }

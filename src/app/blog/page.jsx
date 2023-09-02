@@ -7,7 +7,7 @@ const Blog = () => {
   useEffect(()=>{setMounted(true)})
   if(!mounted)return null;
   return (
-    <div><BlogCon/></div>
+    <div className='min-h-[90dvh'><BlogCon/></div>
   )
 }
 

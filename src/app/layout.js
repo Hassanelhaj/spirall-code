@@ -4,8 +4,8 @@ import NavBar from "../../Components/utils/NavBar";
 import Footer from "../../Components/utils/Footer";
 
 export const metadata = {
-  title: "search jobs in sudan",
-  description: "developed by hassan ",
+  title: "sipral code",
+  description: "build the future togther ",
 };
 
 export default function RootLayout({ children }) {

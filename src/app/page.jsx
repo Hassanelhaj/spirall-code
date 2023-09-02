@@ -15,7 +15,7 @@ const Home = () => {
   if(!mounted)return null;
  
   return (
-    <div className=' overflow-hidden p-4
+    <div className=' overflow-hidden p-2 min-h[90dvh]
    ' >
     <div className='w-screen'>
     <main className=' flex flex-col  items-center flex-wrap gap-3 '>

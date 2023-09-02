@@ -1,7 +1,4 @@
 import React from 'react'
-import background from '../../public/background/bac1.jpg'
-import Image from 'next/image'
-// import { Image } from 'react-bootstrap'
 
 const ContactForm = () => {
   return (
@@ -46,12 +43,12 @@ const ContactForm = () => {
         />
       </div>
     
-      <p className=" bg-purple-600 poster  cursor-pointer text-white
+      <p className=" bg-transparent border border-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] shadow-white 
+        
+        cursor-pointer text-white 
        font-medium py-2 w-64 sm:w-72 text-center rounded-lg text-transparent">Send</p>
     </div>
 
-
-{/* <Image src={background}/> */}
     </main>
   )
 }
