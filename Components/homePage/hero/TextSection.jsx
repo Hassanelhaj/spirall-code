@@ -3,9 +3,10 @@ import React from 'react'
 
 const TextSection = () => {
   return (
-    <div className='flex flex-col justify-center items-center gap-4'>
-        <h1 className='text-lg font-bold capitalize'>
-             help your business to grow up with our <span className='text-purple-600 font-extrabold'>tecnical soulutions</span>
+    <div className='flex flex-col justify-center items-center gap-4 px-1'>
+        <h1 className='text-lg font-bold capitalize '>
+             help your business to grow up with our 
+             <span className='text-purple-600 font-extrabold'>tecnical soulutions</span>
         </h1>
         <p className='w-64'>
             we intend and seek to create the future through programming and 
